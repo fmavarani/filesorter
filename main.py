@@ -5,7 +5,7 @@ import sys
 import glob
 from multiprocessing import Pool
 from PIL import Image
-office_documents = (".doc", ".docx", ".docm", ".dot", ".dotx", ".dotm", ".xls", ".xlsx", ".xlsm", ".xlsb", ".xlt", ".xltx", ".xltm", ".ppt", ".pptx", ".pptm", ".pot", ".potx", ".potm", ".ppa", ".ppam", ".pps", ".ppsx", ".ppsm", ".sldx", ".sldm", ".accdb", ".accdt", ".accdr", ".pub", 'pdf')
+office_documents = ('.gdoc', '.gsheet', '.gslides', '.gform', '.gdraw','.odt', '.ods', '.odp', '.odg', '.odb', '.odf',".doc", ".docx", ".docm", ".dot", ".dotx", ".dotm", ".xls", ".xlsx", ".xlsm", ".xlsb", ".xlt", ".xltx", ".xltm", ".ppt", ".pptx", ".pptm", ".pot", ".potx", ".potm", ".ppa", ".ppam", ".pps", ".ppsx", ".ppsm", ".sldx", ".sldm", ".accdb", ".accdt", ".accdr", ".pub", 'pdf')
 images=('.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.gif')       
 
 def sort_files_by_extension_and_date(dir_path):
